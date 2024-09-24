@@ -12,7 +12,7 @@ const server = express();
 // connects to that route.
 server.get("/", (req, res) => {
 	res.send("Hello, wolf!");
-})
+});
 
 // The method `use()` of an Express instance allows to load
 // "middleware" code into specific routes. In this case we're telling

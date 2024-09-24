@@ -9,10 +9,10 @@ const server = express();
 // connects to that route.
 server.get("/", (req, res) => {
 	res.send("Hello, wolf!");
-})
+});
 
 // Starts the server in the port 3000, host 127.0.0.1. Once again, what
 // is inside of the brackets will be run when the line gets executed.
 server.listen(3000, "127.0.0.1", () => {
 	console.log("This should be working and listening on :3000");
-})
+});
